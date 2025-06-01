@@ -1,0 +1,44 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.lock
+*.log
+*.packages
+*.snapshots
+*.flutter-plugins
+*.flutter-plugins-dependencies
+.pub-cache/
+android/.gradle/
+android/app/*.iml
+ios/Pods/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Misc
+*.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+
+# VSCode related
+.vscode/
+
+# Build output
+/build/
