@@ -1,17 +1,18 @@
-# simple_note_app
+## Simple Note App
 
-A new Flutter project.
+A simple note-taking app for writing and managing your notes.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Try it online
 
-A few resources to get you started if this is your first Flutter project:
+You can view or test the application using this link on Appetize:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[https://appetize.io/app/b_6z4wniwcpmzah7jzaah3s5ykce](https://appetize.io/app/b_6z4wniwcpmzah7jzaah3s5ykce)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Simple_Note_App" 
+
+## Features
+
+- Add notes with title and content
+- Edit existing notes
+- Delete notes
+- Persistent storage using SharedPreferences
