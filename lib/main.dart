@@ -39,8 +39,6 @@ class _NoteHomePageState extends State<NoteHomePage> {
   Future<void> loadNotes() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
-    // Uncomment this line only if you want to clear old data once
-    // await prefs.clear();
 
     List<String>? jsonList = prefs.getStringList('notes');
     if (jsonList != null) {
@@ -70,7 +68,7 @@ class _NoteHomePageState extends State<NoteHomePage> {
         titleController.clear();
         contentController.clear();
       });
-      saveNotes(); // don't await, but you can if you want to be sure
+      saveNotes();
     }
   }
 
@@ -119,7 +117,7 @@ class _NoteHomePageState extends State<NoteHomePage> {
                   notes[index].title = titleEditController.text;
                   notes[index].content = contentEditController.text;
                 });
-                await saveNotes(); // await to ensure saving before closing dialog
+                await saveNotes();
                 Navigator.of(context).pop(); // Close dialog after saving
               },
               child: Text('Save'),
